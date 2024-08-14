@@ -2,6 +2,7 @@ body{
     font: 16/28px verdana, arial, sans-serif;
     background-color: #eaeaeade;
     color: #333;
+    background-image: url(img/bgbody.jpg);
 }
 
 .container  {
