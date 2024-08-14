@@ -7,7 +7,7 @@ body{
 .container  {
     width: 800px;
     margin: auto;
-    background-color: #4847478e;
+    background-color: #fa7d09;
 }
 
 .header {
@@ -18,17 +18,20 @@ body{
     font-size: 40px;
     font-weight: bold;
     font-family: verdana;
+    text-align: center;
 }
 
 .header ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header a{
     text-decoration: none;
-    color: aqua;
+    color: #4a3f35;
 }
 
 .hero {
@@ -47,6 +50,7 @@ body{
     font-size: 28px;
     font-weight: bold;
     font-family: verdana;
+    color: #2f2519;
 }
 
 .content .penulis {
@@ -55,6 +59,7 @@ body{
 
 .content p {
     font-size: 16px;
+    color: #2f2519;
 }
 
 .content a {
