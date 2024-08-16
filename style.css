@@ -85,7 +85,7 @@ body {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    background-image: url(img/background.jpg);
+    background-image: url(img/bg-img.jpg);
 }
 
 .content {
@@ -160,13 +160,4 @@ body {
     display: flex;
     border-radius: 12px;
     overflow: hidden;
-}
-/* Layout1 */
-.layout-1 {
-    width: 1440px;
-    height: 864px;
-    background-color: #f9f9f9;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
