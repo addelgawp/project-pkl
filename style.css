@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+    --soklat: #d1c9c3;
+    --bg-main: #151515;
+}
 
 body {
     margin: 0;
@@ -17,7 +19,7 @@ body {
     margin-top: 5px;
     justify-content: space-between;
     align-items: center;
-    background-color: #151515;
+    background-color: var(--bg-main);
 }
 
 .container {
@@ -65,7 +67,7 @@ body {
 }
 
 .button-enrollnow {
-    background-color: #d3cbc6;
+    background-color: var(--soklat);
     color: black;
     padding: 8px 20px;
     margin-right: 15px;
@@ -100,7 +102,7 @@ body {
     line-height: 76px;
     color: #101010;
     margin-bottom: 20px;
-    font-family: "Instrument Sans", sans-serif;
+    font-family: "PT Serif";
     font-weight: 400;
 }
 
@@ -160,4 +162,232 @@ body {
     display: flex;
     border-radius: 12px;
     overflow: hidden;
+}
+.img-header img{
+    object-fit: cover;
+}
+
+/* Layout1 */
+.layout-1 {
+    width: 1440px;
+    height: 864px;
+    background-color: #f9f9f9;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-layout1{
+    display: flex;
+    width: 445.83px;
+    height: 555px;
+    margin-top: 154px;
+    margin-left: 113px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 24px;
+    opacity: 0px;
+    
+}
+.img-layout1 img{
+    display: flex;
+    object-fit: cover;
+    border-radius: 24px 0px 0px 24px;
+    opacity: 0px;
+    overflow: auto;
+}
+
+.text-layout1 {
+    width: 800px;
+    height: 555px;
+    margin-top: 154px;
+    margin-right: 100px;
+    border: 1px solid #101010;
+    gap: 24px;
+}
+.cont-text1{
+    width: 696px;
+    height: 355px;
+    gap: 16px;
+    margin: 52px;
+}
+.cont-text1 p.about-me{
+    display: flex;
+    width: 65px;
+    height: 29px;
+    border: 1px solid #101010;
+    border-radius: 100px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #101010;
+    margin-top: auto;
+ }
+ .cont-text1 h3 {
+    display: inline-block;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "PT Serif";
+    line-height: 57px;
+    color: #101010;
+    margin-top: 20px;
+ }
+
+ .cont-text1 p {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Instrument Sans";
+    line-height: 27px;
+    margin-top: -40px;
+ }
+ .btn-learn1 {
+    width: 136px;
+    height: 48px;
+    gap: 24px;
+    border-radius: 100px;
+    border: 1px solid #101010;
+    padding: 12px 16px 12px 16px;
+    text-decoration: none;
+    margin-left: 600px;
+    margin-top: auto;
+    color: #101010;
+ }
+
+ /* layout2 */
+ .layout-2 {
+    width: 1440px;
+    height: 864px;
+    background-image: url(img/bg-img.jpg);
+    margin: auto;
+    display: flex;
+    position: relative;
+ }
+.cont-text2 {
+    width: 748px;
+    height: 400px;
+    margin-top: 216.5px;
+    margin-left: 110px;
+    padding: 52px 0px 0px 0px;
+    gap: 24px;
+    border: 1px solid #101010;
+    background-color: #ffffff;
+    align-items: center;
+}
+.content2 {
+    width: 644px;
+    height: 260px;
+    gap: 16px;
+    margin: 20px 52px;
+    z-index: 1;
+    position: absolute;
+}
+.content2 p.why-coaching {
+    display: flex;
+    width: 101px;
+    height: 21px;
+    border: 1px solid #101010;
+    border-radius: 100px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    align-items: center;
+    font-family: "Instrument Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #101010;
+    line-height: 21px;
+    margin-top: auto;
+}
+
+.content2 h3{
+    display: inline-block;
+    font-family: "PT Serif";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57px;
+    margin-top: auto;
+}
+
+.content2 p {
+    display: inline-block;
+    font-family: "Instrument Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: -26px;
+}
+.btn-learn2 {
+    width: 136px;
+    height: 48px;   
+    gap: 24px;
+    border-radius: 100px;
+    border: 1px solid #101010;
+    padding: 12px 16px 12px 16px;
+    text-decoration: none;
+    margin-left: 550px;
+    margin-bottom: -20px;
+    color: #101010;
+}
+
+.img-layout2 {
+    display: flex;
+    width: 556px;
+    height: 640px;
+    margin-top: 120px;
+    border-radius: 24px;
+    z-index: 2;
+}
+.img-layout2 img {
+    width: 556px;
+    height: 640px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 24px;
+    overflow: auto;
+    margin-left: -60px;
+}
+
+/* layout3 */
+.layout-3 {
+    width: 1440px;
+    height: 864px;
+    background-color: #ffffff;
+    margin: auto;
+    display: flex;
+}
+.img-layout3 {
+    width: 570px;
+    height: 640px;
+    margin-top: 112px;
+    margin-left: 110px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 0px;
+    opacity: 0px;
+}
+.img-layout3 img {
+    width: 570px;
+    height: 640px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 24px;
+    opacity: 0px;
+    overflow: auto;
+}
+.services-section {
+    width: 570px;
+    height: 640px;
+    margin-top: 112px;
+    margin-left: 70px;
+    border-radius: 24px;
+}
+.services-section h2{
+    width: 570px;
+    height: 106px;
+    gap: 10px;
+    border-radius: 12px 12px 0px 0px;
+    border: 1px solid #7d7c7a;
+    margin: auto;
+    font-family: "PT Serif";
+    font-size: 48px;
+    font-weight: 700;
 }
